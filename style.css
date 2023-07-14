@@ -9,9 +9,10 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
+    margin: 35px;
 }
 .botAm{
+    margin-right: 30px;
     padding: 10px;
     background-color:  #E6DDC4;
     border-radius: 10px;
@@ -26,6 +27,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
 }
 .texx{
     color: white;
