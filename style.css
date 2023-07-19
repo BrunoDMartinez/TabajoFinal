@@ -84,17 +84,17 @@ html{
 }
 .texHist{
     display: flex;
-    padding: 80px 50px;
-    justify-content: space-around;
+    padding: 70px 40px;
+    justify-content: space-between;
 }
 .texHistTex{
-    width: 35%;
-    color: white;
+    color: #E6DDC4;
+    width: 70%;
 }
 .texHistTi{
     color: #678983;
     text-shadow: 2px 2px black;
-    width: 50%;
+    width: 30%;
     text-align: center;
     font-size: 40px;
 }
