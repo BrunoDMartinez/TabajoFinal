@@ -92,12 +92,59 @@ html{
 }
 .texHistTex{
     color: #E6DDC4;
-    width: 70%;
+    width: 40%;
 }
 .texHistTi{
     color: #678983;
     text-shadow: 2px 2px black;
-    width: 30%;
+    width: 60%;
     text-align: center;
     font-size: 40px;
+}
+.titVideo{
+    text-align: center;
+    font-size: 35px;
+    color:#678983;
+    text-shadow: 2px 2px black;
+}
+.video{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.pcBlanco{
+    animation-name: animacionPc;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.pcOscuro{
+    transform: translate(0,-100px);
+    animation-name: animacionPcOscuro;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes animacionPc {
+    0%{
+        opacity: 0;
+        transform: translate(0, -100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+@keyframes animacionPcOscuro {
+    0%{
+        opacity: 0;
+        transform: translate(0, -100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0, 0);
+    }    
 }
