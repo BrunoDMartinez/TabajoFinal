@@ -8,14 +8,14 @@
 </head>
 <body>
     <nav class="barra">
-        <a href="./index.html">
-        <svg width="200" height="100">
-            <rect x="60" y="10" rx="9" width="70" height="40" fill="#ececec"></rect>
-            <rect x="65" y="15" rx="9" width="60" height="30" fill="#605C7B"></rect>
-            <polygon points="75 60, 115 60, 140 90, 50 90 " fill="#ececec"></polygon>
-            <polygon points="80 65, 110 65, 130 85, 60 85 " fill="#605C7B"></polygon>
-        
-        </svg></a>
+        <a href="./">
+            <svg width="200" height="100">
+                <rect class="pcBlanco" x="60" y="10" rx="9" width="70" height="40" fill="#ececec"></rect>
+                <rect class="pcOscuro" x="65" y="15" rx="9" width="60" height="30" fill="#605C7B"></rect>
+                <polygon class="pcBlanco" points="75 60, 115 60, 140 90, 50 90 " fill="#ececec"></polygon>
+                <polygon class="pcOscuro" points="80 65, 110 65, 130 85, 60 85 " fill="#605C7B"></polygon>
+            </svg>
+            </a>
         <div class="contBot">
             <a class="botAm" href="./historia.html">HISTORIA</a>
             <a class="botAm" href="./juego.html">JUGUEMOS</a>
@@ -48,12 +48,17 @@
                 <p>Esto dio el puntapie a que se sigan perfeccionando los lenguajes hasta llegar al os lenguajes de hoy en dia</p>
         </div>
         </div>
-        <article>
+        <article class="videoPadre">
             <h2 class="titVideo">Un breve video para complementar lo visto</h2>
-            <video class="video" controls>
+            <div class="contVid">
+            <video class="video" poster="./imagenes/img-video.jpg" controls>
                 <source src="./video/historia-Comp.mp4">
             </video>
-              
+            <div>
+                <button><img src="./imagenes/play.svg" alt="" onclick="reproducir()"></button>
+                <button><img src="./imagenes/pausa.svg" alt="" onclick="parar()"></button>
+            </div>
+            </div>
         </article>
         <footer class="abrraAbj">
             <div>
@@ -64,6 +69,7 @@
                 sitio con fines educativos - Creado por Bruno Nicolas Martinez
             </div>
         </footer>
+        <script src="./script.js" ></script>
     </main>
 </body>
 </html>
