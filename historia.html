@@ -51,12 +51,15 @@
         <article class="videoPadre">
             <h2 class="titVideo">Un breve video para complementar lo visto</h2>
             <div class="contVid">
-            <video class="video" poster="./imagenes/img-video.jpg" controls>
+            <video class="video" poster="./imagenes/img-video.jpg" >
                 <source src="./video/historia-Comp.mp4">
             </video>
-            <div>
-                <button><img src="./imagenes/play.svg" alt="" onclick="reproducir()"></button>
-                <button><img src="./imagenes/pausa.svg" alt="" onclick="parar()"></button>
+            <div class="barraVideo">
+                <div>
+                    <button class="botonVdideo1" onclick="reproducir()"><img src="./imagenes/play.svg" alt="boton para dar play" ></button>
+                    <button class="botonVdideo1" onclick="parar()"><img src="./imagenes/pausa.svg" alt="boton para pausar" ></button>
+            </div>
+            <div><p class="duraVid">Dudacion del video:250</p></div>
             </div>
             </div>
         </article>
