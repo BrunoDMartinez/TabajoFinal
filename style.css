@@ -53,10 +53,14 @@ html{
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 345px;
-    height: 400px;
+    width: 310px;
+    height: 380px;
     border: 5px solid #678983 ;
     align-items: center;
+}
+.animacionBoton:active{
+    transform: translate(2px, 2px);
+    box-shadow: none;
 }
 .imgTarj{
     width: 100%;
@@ -161,9 +165,11 @@ html{
     margin-right: 5px;
 }
 .conArrastre{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 .depocito{
     display: flex;
@@ -171,7 +177,20 @@ html{
     height: 500px;
     justify-content: center;
     border: 2px solid black;
+    background-color: gray;
 }
+.imgArras{
+    padding: 10px;
+}
+.depocito:hover{
+    background-color: rgb(42, 42, 42);
+}
+.botReini{
+    display: flex;
+    margin: auto;
+    padding: 10px 100px;
+}
+
 @keyframes animacionPc {
     0%{
         opacity: 0;
