@@ -181,6 +181,8 @@ html{
 }
 .imgArras{
     padding: 10px;
+    width: 250px;
+    height: 450px;
 }
 .depocito:hover{
     background-color: rgb(42, 42, 42);
@@ -189,6 +191,9 @@ html{
     display: flex;
     margin: auto;
     padding: 10px 100px;
+}
+.desaparece, .desaparece1, .desaparece1{
+    display: none;
 }
 
 @keyframes animacionPc {
