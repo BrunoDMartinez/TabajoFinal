@@ -173,13 +173,16 @@ html{
 }
 .depocito{
     display: flex;
-    width: 300px;
+    width: 280px;
     height: 500px;
     justify-content: center;
     border: 2px solid black;
     background-color: gray;
 }
 .imgArras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     width: 250px;
     height: 450px;
@@ -192,7 +195,7 @@ html{
     margin: auto;
     padding: 10px 100px;
 }
-.desaparece, .desaparece1, .desaparece1{
+.desaparece{
     display: none;
 }
 
