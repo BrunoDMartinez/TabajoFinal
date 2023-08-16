@@ -72,5 +72,5 @@ imgArrastrada2.addEventListener("dragend", () => {
 let botonReiniciar = document.getElementById("botonReiniciar");
 
 botonReiniciar.addEventListener("click", () => {
-    window.location.reload(); // Recargar la página
+    window.location.reload(); 
 });
