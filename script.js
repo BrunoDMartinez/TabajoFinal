@@ -1,10 +1,10 @@
-let video = document.querySelector(".video")
+let video = document.querySelector(".video");
 const reproducir=()=>{
-    video.play()
-}
+    video.play();
+};
 const parar=()=>{
-    video.pause()
-}
+    video.pause();
+};
 let deposito = document.querySelector("#a");
 let imgArrastrada = document.querySelector("#d");
 
